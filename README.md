@@ -1,16 +1,75 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Todo List application built with React.js** that allows users to add, manage, and delete tasks.  
+This project demonstrates the use of **React components, hooks, and state management**.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add new tasks
+- Delete tasks
+- Dynamic UI updates
+- Component-based architecture
+- Responsive design
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- JavaScript (ES6)
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+react-todo-app
+│
+├── src
+│   ├── components
+│   │   └── Todo.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── styles.css
+│
+├── public
+│   └── index.html
+│
+├── package.json
+└── README.md
+
+## How the Application Works
+
+1. The user enters a task in the input field.
+2. The task is stored in the **React state**.
+3. React dynamically renders the task list.
+4. Users can delete tasks, which updates the state and UI instantly.
+
+## How to Run the Project
+
+1. Clone the repository
+2. Navigate to the project folder   
+3. Install dependencies
+
+4. Run the application
+
+5. Open the browser and go to http://localhost:3000
+
+## Learning Outcomes
+
+Through this project I practiced:
+
+- React component structure
+- React Hooks (`useState`)
+- Event handling in React
+- Dynamic rendering of lists
+- Basic state management
+
+## Future Improvements
+
+- Add task editing functionality
+- Add task completion status
+- Save tasks in local storage
+- Add dark mode
+- Connect to backend database
+
+## Author
+
+Dhanush
